@@ -11,5 +11,5 @@ public interface UserDAO {
 
     boolean update(User user);
 
-    Long create(User user);
+    List<User> create(User user);
 }
